@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="" />
+    <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/javaStreams/MapExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaStreams/filterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_algo/tree1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/tree1/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,24 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="188">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#501#517#0" expanded="true" />
+                <element signature="method#levelOrderTraversal#0;class#Tree#0" />
+                <element signature="method#isBST#0;class#Tree#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/other_algo/string/StringSegmentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="264">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -48,12 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="method#insertBST#0;class#BinaryTree#0" />
-                <element signature="method#insert#0;class#BinaryTree#0" />
-              </folding>
+            <state relative-caret-position="1386">
+              <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -66,6 +61,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>merge_sorted</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,9 +100,12 @@
         <option value="$PROJECT_DIR$/src/other_algo/tree1/levelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/other_algo/tree1/common/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/other_algo/tree1/Tree.java" />
-        <option value="$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/other_algo/tree1/Main.java" />
         <option value="$PROJECT_DIR$/src/other_algo/string/StringSegmentation.java" />
+        <option value="$PROJECT_DIR$/src/javaStreams/filterExample.java" />
+        <option value="$PROJECT_DIR$/src/javaStreams/MapExamples.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/tree1/Main.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -108,6 +114,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1029" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -136,7 +143,7 @@
               <item name="coding_interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="other_algo" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="tree1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,6 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace_react_native/SampleReactNativeProject" />
@@ -174,13 +182,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MergeTwoLinkList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other_algo.tree1.Main" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="other_algo.tree1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaStreams.MapExamples" />
+      <module name="coding_interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,19 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_002_AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code._002_AddTwoNumbers" />
-      <module name="coding_interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet_code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_003_LongestSubstringWithoutRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet_code._003_LongestSubstringWithoutRepeatingChar" />
       <module name="coding_interview" />
@@ -236,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoLinkList" />
+        <item itemvalue="Application.MapExamples" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.MergeTwoLinkList" />
         <item itemvalue="Application._003_LongestSubstringWithoutRepeatingChar" />
-        <item itemvalue="Application._002_AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -270,11 +278,12 @@
       <workItem from="1590106197868" duration="8589000" />
       <workItem from="1590811938871" duration="1841000" />
       <workItem from="1595127485955" duration="27237000" />
+      <workItem from="1595524930946" duration="12333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72176000" />
+    <option name="totallyTimeSpent" value="85771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -288,7 +297,6 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4965197" weight="0.32793522" />
       <window_info id="Structure" order="7" sideWeight="0.50348026" side_tool="true" weight="0.18266979" />
-      <window_info anchor="bottom" id="GraphQL" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -300,12 +308,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.21136767" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.22912966" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.3339254" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
       <window_info anchor="bottom" id="CxGrid" order="16" />
+      <window_info anchor="bottom" id="GraphQL" order="17" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -353,7 +362,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java</url>
-          <line>46</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -455,24 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/Problem1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_algo/arbitaryLinkList/LinkedListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/arbitaryLinkList/LinkedListNode.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/ArrayDeque.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -484,30 +476,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/other_algo/arbitaryLinkList/ArbitraryLinkList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/Queue.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="268">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/IstreeBST/isBST.java" />
+    <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/IsBST.java" />
+    <entry file="file://$PROJECT_DIR$/src/javaStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Problem1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaStreams/filterExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaStreams/MapExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#mapEx1#0;class#MapExamples#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/StringSegmentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="method#merge_sorted#0;class#MergeTwoLinkList#0" />
+            <element signature="method#merge_sorted2#0;class#MergeTwoLinkList#0" />
             <element signature="method#main#0;class#MergeTwoLinkList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_algo/arbitaryLinkList/ArbitraryLinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -519,67 +553,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/Queue.class">
+    <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_algo/IstreeBST/isBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/IsBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="220">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="method#insertBST#0;class#BinaryTree#0" />
-            <element signature="method#insert#0;class#BinaryTree#0" />
-          </folding>
+        <state relative-caret-position="1386">
+          <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="264">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="188">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#501#517#0" expanded="true" />
+            <element signature="method#levelOrderTraversal#0;class#Tree#0" />
+            <element signature="method#isBST#0;class#Tree#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_algo/string/StringSegmentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

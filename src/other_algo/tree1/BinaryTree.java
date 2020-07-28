@@ -22,9 +22,9 @@ public class BinaryTree {
     }
 
     /*
-        The Binary Tree (BST) insert is specialized use of binary tree. The concept lies behind is that all the element value
-        less than the root node value insert left to the root node and the element value greater than the root node insert
-        right to this root node.
+        The Binary Search Tree (BST) insert is specialized use of binary tree. The concept lies behind is that all the
+        element value less than the root node value insert left to the root node and the element value greater than the
+        root node insert right to this root node.
      */
     private static BinaryTreeNode insertBST(BinaryTreeNode binaryTreeNode, Integer data) {
         if (binaryTreeNode == null) {
@@ -61,7 +61,7 @@ public class BinaryTree {
             binaryTreeNode.right = new BinaryTreeNode(data);
         } else if (binaryTreeNode.left != null) {
             insertBT(binaryTreeNode.left, data);
-        } else if (binaryTreeNode.right == null) {
+        } else if (binaryTreeNode.right != null) {
             insertBT(binaryTreeNode.right, data);
         }
         return binaryTreeNode;
