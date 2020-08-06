@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaStreams/MapExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaStreams/filterExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_algo/tree1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/tree1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_algo/string/PossibleBalancedBraces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/string/PossibleBalancedBraces.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,34 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/Tree.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="178">
+              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#levelOrderTraversal#0;class#Tree#0" />
-                <element signature="method#isBST#0;class#Tree#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/other_algo/string/PossibleBalancedBraces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+            <state relative-caret-position="286">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,6 +53,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>merge_sorted</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,6 +95,12 @@
         <option value="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" />
         <option value="$PROJECT_DIR$/src/other_algo/tree1/Main.java" />
         <option value="$PROJECT_DIR$/src/other_algo/tree1/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/CoinChanging.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/ArrayPairDifference.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/PossibleBalancedbraces.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/kthPermutation.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/PossibleBalancedBraces.java" />
       </list>
     </option>
   </component>
@@ -120,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,14 +139,13 @@
               <item name="coding_interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="other_algo" type="462c0819:PsiDirectoryNode" />
-              <item name="tree1" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,13 +177,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoLinkList">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other_algo.tree1.Main" />
+  <component name="RunManager" selected="Application.PossibleBalancedBraces">
+    <configuration name="CoinChanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.CoinChanging" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other_algo.tree1.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaStreams.MapExamples" />
+    <configuration name="FindAllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.FindAllSubset" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaStreams.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other_algo.tree1.Tree" />
+    <configuration name="PossibleBalancedBraces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.PossibleBalancedBraces" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other_algo.tree1.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_003_LongestSubstringWithoutRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code._003_LongestSubstringWithoutRepeatingChar" />
+    <configuration name="kthPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.kthPermutation" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PossibleBalancedBraces" />
+        <item itemvalue="Application.kthPermutation" />
+        <item itemvalue="Application.CoinChanging" />
+        <item itemvalue="Application.FindAllSubset" />
         <item itemvalue="Application.MergeTwoLinkList" />
-        <item itemvalue="Application.MapExamples" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Tree" />
-        <item itemvalue="Application._003_LongestSubstringWithoutRepeatingChar" />
       </list>
     </recent_temporary>
   </component>
@@ -279,24 +274,30 @@
       <workItem from="1590811938871" duration="1841000" />
       <workItem from="1595127485955" duration="27237000" />
       <workItem from="1595524930946" duration="12333000" />
+      <workItem from="1596595645800" duration="28089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85771000" />
+    <option name="totallyTimeSpent" value="116088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Azure Explorer" weight="0.32955465" />
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4965197" weight="0.32793522" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4965197" visible="true" weight="0.19271255" />
       <window_info id="Structure" order="7" sideWeight="0.50348026" side_tool="true" weight="0.18266979" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" />
+      <window_info anchor="bottom" id="Azure Activity Log" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -308,8 +309,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.22912966" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.3339254" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.18827708" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.21136767" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
@@ -372,6 +373,18 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/other_algo/string/CoinChanging.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/other_algo/string/kthPermutation.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -382,6 +395,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>curr + str.charAt(index)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>s.charAt(j)</expression-string>
         <language-id>JAVA</language-id>
@@ -486,13 +504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/IstreeBST/isBST.java" />
     <entry file="file://$PROJECT_DIR$/src/other_algo/tree1/IsBST.java" />
-    <entry file="file://$PROJECT_DIR$/src/javaStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaStream.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter1/Problem1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -531,18 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="method#merge_sorted#0;class#MergeTwoLinkList#0" />
-            <element signature="method#merge_sorted2#0;class#MergeTwoLinkList#0" />
-            <element signature="method#main#0;class#MergeTwoLinkList#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,6 +589,103 @@
             <element signature="imports" expanded="true" />
             <element signature="method#levelOrderTraversal#0;class#Tree#0" />
             <element signature="method#isBST#0;class#Tree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/HashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="181" column="12" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
+          <folding>
+            <element signature="e#5725#5726#0" expanded="true" />
+            <element signature="e#5796#5797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/HashSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/Collection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/Set.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="54" column="91" lean-forward="true" selection-start-line="54" selection-start-column="91" selection-end-line="54" selection-end-column="91" />
+          <folding>
+            <element signature="method#merge_sorted#0;class#MergeTwoLinkList#0" />
+            <element signature="method#main#0;class#MergeTwoLinkList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/CoinChanging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc;n#CoinChanging#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/ArrayPairDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#ArrayPairDifference#0" />
+            <element signature="method#findPairs#0;class#ArrayPairDifference#0" />
+            <element signature="method#findPairs2#0;class#ArrayPairDifference#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/kthPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/PossibleBalancedBraces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

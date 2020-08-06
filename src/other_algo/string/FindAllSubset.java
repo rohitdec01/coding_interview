@@ -9,6 +9,8 @@ import java.util.List;
     Imp: 2 power 3 will be total subset here. formula of n subset is 2 power n
 
     Output:    empty       2       3       2,3     4       2,4        3,4      2,3,4
+
+    Solve this problem using backtracking.
  */
 public class FindAllSubset {
 
@@ -19,6 +21,7 @@ public class FindAllSubset {
         powerSet(lst, index, current);
     }
 
+    // O(2^n*n) for Time and space complexity.
     private static void powerSet(List<Integer> lst, int index, String current) {
         int len = lst.size();
         if (index == len) {
