@@ -17,7 +17,7 @@ public class CoinChanging {
 
     public static void main(String[] args) {
         int[] conins = new int[]{1, 2, 5};
-        int amount = 12;
+        int amount = 7;
         int result = solveCoinChange(conins, amount);
         System.out.print("SolveCoinChange(" + Arrays.toString(conins) + ", " + amount + ") = ");
         System.out.print(result);

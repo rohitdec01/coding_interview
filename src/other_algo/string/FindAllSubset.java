@@ -1,5 +1,6 @@
 package other_algo.string;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -15,21 +16,26 @@ import java.util.List;
 public class FindAllSubset {
 
     public static void main(String[] args) {
-        List<Integer> lst = Arrays.asList(1, 2, 3);
+        List<Integer> lst = Arrays.asList(1, 1, 2, 3);
         int index = 0;
+        List<Integer> subsets = new ArrayList<>();
         String current = "";
-        powerSet(lst, index, current);
+        System.out.println("test   " + powerSet(lst, index, current, subsets) );
+
     }
 
     // O(2^n*n) for Time and space complexity.
-    private static void powerSet(List<Integer> lst, int index, String current) {
+    private static List<Integer>  powerSet(List<Integer> lst, int index, String current, List<Integer> subsets) {
         int len = lst.size();
         if (index == len) {
             System.out.println("{" + current + "}");
-            return;
+            subsets.add(current.length());
+            return subsets;
         }
 
-        powerSet(lst, index + 1, current + lst.get(index));
-        powerSet(lst, index + 1, current);
+        powerSet(lst, index + 1, current + lst.get(index), subsets);
+        powerSet(lst, index + 1, current, subsets);
+
+        return subsets;
     }
 }

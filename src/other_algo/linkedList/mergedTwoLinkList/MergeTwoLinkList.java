@@ -6,11 +6,8 @@ package other_algo.linkedList.mergedTwoLinkList;
 public class MergeTwoLinkList {
 
     public static LinkedListNode merge_sorted(LinkedListNode head1, LinkedListNode head2) {
-        if (head1 == null) {
-            return head2;
-        } else if (head2 == null) {
-            return head1;
-        }
+        if (head1 == null) return head2;
+        if (head2 == null) return head1;
 
         LinkedListNode mergedHead = null;
         LinkedListNode mergedRoot = null;
@@ -53,11 +50,8 @@ public class MergeTwoLinkList {
     }
 
     public static LinkedListNode merge_sorted2(LinkedListNode head1, LinkedListNode head2) {
-        if (head1 == null) {
-            return head2;
-        } else if (head2 == null) {
-            return head1;
-        }
+        if (head1 == null) return head2;
+        if (head2 == null) return head1;
 
         LinkedListNode head = null;
         LinkedListNode root = null;
