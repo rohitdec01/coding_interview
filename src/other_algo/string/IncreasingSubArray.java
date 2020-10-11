@@ -1,6 +1,8 @@
 package other_algo.string;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /*
@@ -20,7 +22,11 @@ public class IncreasingSubArray {
         //int[] input = new int[]{2, 7, 5, 8, 6, 3, 9, 10};
         //int[] input = new int[]{8, 7, 6, 5, 4, 3, 2, 1};
         // int[] input = new int[]{4, 3, 2, 9};
-        int indexVal = 0;
+
+        System.out.println(lengthOfLIS(input) +"");
+
+
+       /* int indexVal = 0;
         int len = input.length;
         int index = len;
 
@@ -54,7 +60,32 @@ public class IncreasingSubArray {
         }
 
         System.out.println(firstList+ "   " + secondList);
-        System.out.println("Size is:  " + (firstList.size() + secondList.size()));
+        System.out.println("Size is:  " + (firstList.size() + secondList.size()));*/
 
     }
+
+    public static int lengthOfLIS(int[] nums) {
+
+        if(nums == null || nums.length == 0) { return 0; }
+        int n = nums.length;
+
+        Integer lis[] = new Integer[n];
+        int max = 0;
+
+    /* Initialize LIS values for all indexes */
+    for ( int i = 0; i < n; i++ ) {
+        lis[i] = 1;
+    }
+
+    /* Compute optimized LIS values in bottom up manner */
+    for (int i = 1; i < n; i++ ) {
+        for ( int j = 0; j < i; j++ )  {
+            if ( nums[i] > nums[j] && lis[i] < lis[j] + 1) {
+                lis[i] = lis[j] + 1;
+            }
+        }
+    }
+    max = Collections.max(Arrays.asList(lis));
+    return max;
+}
 }

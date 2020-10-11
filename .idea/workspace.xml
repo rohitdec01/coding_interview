@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/other_algo/string/SumOfSubSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#SumOfSubSet#0" />
@@ -32,12 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="198">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+              <folding>
+                <element signature="class#Node#0" />
               </folding>
             </state>
           </provider>
@@ -62,6 +76,7 @@
       <find>@</find>
       <find>sort</find>
       <find>sort(</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leet_code/Problem2.java" />
-        <option value="$PROJECT_DIR$/src/leet_code/_002_Add_Two_Numbers.java" />
         <option value="$PROJECT_DIR$/src/leet_code/_002_AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoLinkList.java" />
         <option value="$PROJECT_DIR$/src/other_algo/common/LinkedList.java" />
@@ -121,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java" />
         <option value="$PROJECT_DIR$/src/other_algo/string/SumOfSubSet.java" />
         <option value="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray2.java" />
       </list>
     </option>
   </component>
@@ -160,12 +175,20 @@
               <item name="other_algo" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="coding_interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding_interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="other_algo" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="IncreasingSubArray2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,20 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IncreasingSubArray">
-    <configuration name="CoinChanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other_algo.string.CoinChanging" />
-      <module name="coding_interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other_algo.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="FindAllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other_algo.string.FindAllSubset" />
       <module name="coding_interview" />
@@ -225,8 +235,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreasingSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other_algo.string.IncreasingSubArray" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.HelloWorld" />
+      <module name="coding_interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other_algo.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncreasingSubArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.IncreasingSubArray2" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
@@ -266,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IncreasingSubArray" />
+        <item itemvalue="Application.IncreasingSubArray2" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.SumOfSubSet" />
         <item itemvalue="Application.FindAllSubset" />
         <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.CoinChanging" />
       </list>
     </recent_temporary>
   </component>
@@ -317,11 +340,12 @@
       <workItem from="1601915783391" duration="642000" />
       <workItem from="1602288136890" duration="10116000" />
       <workItem from="1602373594213" duration="5138000" />
+      <workItem from="1602450999491" duration="2901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221711000" />
+    <option name="totallyTimeSpent" value="224612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1292" height="686" extended-state="0" />
@@ -333,7 +357,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4965197" visible="true" weight="0.28084415" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4965197" weight="0.2857143" />
       <window_info id="Structure" order="7" sideWeight="0.50348026" side_tool="true" weight="0.18266979" />
       <window_info id="Azure Explorer" order="8" weight="0.32955465" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.3285968" />
@@ -347,7 +371,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.24729241" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.30144405" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.39169675" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -503,13 +527,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/LinkedListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1435,7 +1452,7 @@
     <entry file="file://$PROJECT_DIR$/src/other_algo/string/SumOfSubSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#SumOfSubSet#0" />
@@ -1447,9 +1464,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="198">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="class#Node#0" />
           </folding>
         </state>
       </provider>
