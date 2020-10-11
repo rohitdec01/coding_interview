@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leet_code/problem_617/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leet_code/problem_617/BinaryTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leet_code/problem_617/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other_algo/string/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other_algo/string/SumOfSubSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_interview/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_interview/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_interview/other_algo/tree1/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_interview/other_algo/tree1/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding_interview/other_algo/tree1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding_interview/other_algo/tree1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_algo/string/CoinChanging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/string/CoinChanging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +17,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/other_algo/string/SumOfSubSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="308">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#SumOfSubSet#0" />
                 <element signature="method#main#0;class#SumOfSubSet#0" />
                 <element signature="method#subSet#0;class#SumOfSubSet#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leet_code/Problem1.java" />
         <option value="$PROJECT_DIR$/src/leet_code/Problem2.java" />
         <option value="$PROJECT_DIR$/src/leet_code/_002_Add_Two_Numbers.java" />
         <option value="$PROJECT_DIR$/src/leet_code/_002_AddTwoNumbers.java" />
@@ -120,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/MergeTwoLinkList.java" />
         <option value="$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java" />
         <option value="$PROJECT_DIR$/src/other_algo/string/SumOfSubSet.java" />
+        <option value="$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java" />
       </list>
     </option>
   </component>
@@ -134,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +164,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumOfSubSet">
+  <component name="RunManager" selected="Application.IncreasingSubArray">
     <configuration name="CoinChanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other_algo.string.CoinChanging" />
       <module name="coding_interview" />
@@ -224,8 +225,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other_algo.string.MajorityElement" />
+    <configuration name="IncreasingSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.IncreasingSubArray" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
@@ -237,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiLevelSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coreJava.MultiLevelSorting" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string.MajorityElement" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coreJava.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncreasingSubArray" />
         <item itemvalue="Application.SumOfSubSet" />
         <item itemvalue="Application.FindAllSubset" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.CoinChanging" />
-        <item itemvalue="Application.MultiLevelSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -315,11 +316,12 @@
       <workItem from="1601851210294" duration="599000" />
       <workItem from="1601915783391" duration="642000" />
       <workItem from="1602288136890" duration="10116000" />
+      <workItem from="1602373594213" duration="5138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216573000" />
+    <option name="totallyTimeSpent" value="221711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1292" height="686" extended-state="0" />
@@ -331,22 +333,22 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4965197" weight="0.28084415" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4965197" visible="true" weight="0.28084415" />
       <window_info id="Structure" order="7" sideWeight="0.50348026" side_tool="true" weight="0.18266979" />
       <window_info id="Azure Explorer" order="8" weight="0.32955465" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5008117" side_tool="true" weight="0.21119134" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.7906137" />
       <window_info anchor="bottom" id="Java Enterprise" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.21119134" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.3104693" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.24729241" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.39169675" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
@@ -454,6 +456,36 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>len</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(firstList.get(len-1)).intValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>firstList.get(len-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>input[i + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>input[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>myList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>arr.charAt(start)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -468,50 +500,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>current.charAt(i)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>powerSet(lst, index + 1, current + lst.get(index))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>current + lst.get(index)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>target &lt;= givenArray[mid]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>givenArray[mid]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>input[mid]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter1/Problem1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/linkedList/mergedTwoLinkList/LinkedListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1433,8 +1424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/string/FindAllSubset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="132">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1443,13 +1434,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_algo/string/SumOfSubSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="308">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#SumOfSubSet#0" />
             <element signature="method#main#0;class#SumOfSubSet#0" />
             <element signature="method#subSet#0;class#SumOfSubSet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_algo/string/IncreasingSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
