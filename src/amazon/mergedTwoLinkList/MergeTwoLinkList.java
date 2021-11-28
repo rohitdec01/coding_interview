@@ -1,4 +1,4 @@
-package other_algo.linkedList.mergedTwoLinkList;
+package amazon.mergedTwoLinkList;
 
 /*
     Merge two sorted linked list into one sorted linked lists.

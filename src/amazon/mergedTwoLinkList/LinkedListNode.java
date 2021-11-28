@@ -1,4 +1,4 @@
-package other_algo.linkedList.mergedTwoLinkList;
+package amazon.mergedTwoLinkList;
 
 public class LinkedListNode {
     public int data;
