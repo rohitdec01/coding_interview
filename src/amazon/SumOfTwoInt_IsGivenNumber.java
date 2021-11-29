@@ -3,7 +3,7 @@ package amazon;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class SumOfTwoIntTOGivenNumber {
+public class SumOfTwoInt_IsGivenNumber {
 
     /* Determine if the sum of two integers is equal to the given value */
 

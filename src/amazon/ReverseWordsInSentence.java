@@ -1,4 +1,4 @@
-package other_algo.string;
+package amazon;
 
 import java.io.BufferedReader;
 import java.util.Arrays;
