@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_algo/string/ReverseWordsInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/amazon/ReverseWordsInSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other_algo/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/graph/Graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +66,22 @@
       <recent name="other_algo.levelOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringSegmentation">
-    <configuration name="IncreasingSubArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other_algo.string.IncreasingSubArray2" />
+  <component name="RunManager" selected="Application.CloneUnDirectedGraph">
+    <configuration name="CloneUnDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.graph.CloneUnDirectedGraph" />
+      <module name="coding_interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other_algo.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindAllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.FindAllSubset" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
@@ -93,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiLevelSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coreJava.MultiLevelSorting" />
-      <module name="coding_interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coreJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringSegmentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.StringSegmentation" />
       <module name="coding_interview" />
@@ -119,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoIntTOGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="amazon.SumOfTwoIntTOGivenNumber" />
+    <configuration name="SumOfTwoInt_IsGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.SumOfTwoInt_IsGivenNumber" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringSegmentation" />
-        <item itemvalue="Application.SumOfTwoIntTOGivenNumber" />
+        <item itemvalue="Application.CloneUnDirectedGraph" />
+        <item itemvalue="Application.FindAllSubset" />
         <item itemvalue="Application.MissingNumberInTheArray" />
-        <item itemvalue="Application.MultiLevelSorting" />
-        <item itemvalue="Application.IncreasingSubArray2" />
+        <item itemvalue="Application.StringSegmentation" />
+        <item itemvalue="Application.SumOfTwoInt_IsGivenNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -218,48 +218,61 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="406" height="444" key="DebuggerActiveHint" timestamp="1638046496553">
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1638737531724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="406" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1638046496553" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1638128623800">
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1638737531724" />
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1638729176496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638128623800" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1638128623799">
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1638729176496" />
+    <state width="406" height="444" key="DebuggerActiveHint" timestamp="1638728898349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1638128623799" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1638128623799">
+    <state width="406" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1638728898349" />
+    <state width="1493" height="108" key="GridCell.Tab.0.bottom" timestamp="1638753773284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1638128623799" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1638128623799">
+    <state width="1493" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638753773284" />
+    <state width="1493" height="108" key="GridCell.Tab.0.center" timestamp="1638753773284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1638128623799" />
-    <state width="1493" height="216" key="GridCell.Tab.1.bottom" timestamp="1638126755713">
+    <state width="1493" height="108" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1638753773284" />
+    <state width="1493" height="108" key="GridCell.Tab.0.left" timestamp="1638753773282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="216" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638126755713" />
-    <state width="1493" height="216" key="GridCell.Tab.1.center" timestamp="1638126755713">
+    <state width="1493" height="108" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1638753773282" />
+    <state width="1493" height="108" key="GridCell.Tab.0.right" timestamp="1638753773284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="216" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1638126755713" />
-    <state width="1493" height="216" key="GridCell.Tab.1.left" timestamp="1638126755713">
+    <state width="1493" height="108" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1638753773284" />
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom" timestamp="1638731572942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="216" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1638126755713" />
-    <state width="1493" height="216" key="GridCell.Tab.1.right" timestamp="1638126755713">
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
+    <state width="1493" height="245" key="GridCell.Tab.1.center" timestamp="1638731572942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="216" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1638126755713" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1638071788737">
+    <state width="1493" height="245" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
+    <state width="1493" height="245" key="GridCell.Tab.1.left" timestamp="1638731572942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638071788737" />
+    <state width="1493" height="245" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
+    <state width="1493" height="245" key="GridCell.Tab.1.right" timestamp="1638731572942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
+    <state x="478" y="145" width="579" height="592" key="find.popup" timestamp="1638739469949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638739469949" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1638736004723">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1638736004723" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638072721638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -328,6 +341,16 @@
           <line>42</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/amazon/MissingNumberInTheArray.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/amazon/MissingNumberInTheArray.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -335,54 +358,5 @@
     <SUITE FILE_PATH="coverage/coding_interview$_002_AddTwoNumbers.ic" NAME="_002_AddTwoNumbers Coverage Results" MODIFIED="1582237340785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leet_code.*</FILTER>
     </SUITE>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>len</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(firstList.get(len-1)).intValue()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>firstList.get(len-1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>input[i + 1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>input[i]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>myList</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr.charAt(start)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[start]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Integer.valueOf(current.charAt(i))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

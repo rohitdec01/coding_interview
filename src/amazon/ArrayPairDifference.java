@@ -1,4 +1,4 @@
-package other_algo.string;
+package amazon;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

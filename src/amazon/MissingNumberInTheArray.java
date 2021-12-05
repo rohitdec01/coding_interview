@@ -11,7 +11,7 @@ public class MissingNumberInTheArray {
         if (len < 2) {
             System.out.println("No missing number.");
         } else {
-            System.out.println(find_missing(array, len));
+            // System.out.println(find_missing(array, len));
             System.out.println(xorMethod(array, len));
         }
     }

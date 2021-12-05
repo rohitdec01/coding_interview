@@ -1,4 +1,4 @@
-package other_algo.string;
+package amazon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,7 +20,8 @@ public class FindAllSubset {
         int index = 0;
         List<Integer> subsets = new ArrayList<>();
         String current = "";
-        System.out.println("test   " + powerSet(lst, index, current, subsets) );
+        powerSet(lst, index, current, subsets);
+        // System.out.println("test   " + powerSet(lst, index, current, subsets) );
 
     }
 
