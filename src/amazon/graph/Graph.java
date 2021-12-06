@@ -1,4 +1,4 @@
-package other_algo.graph;
+package amazon.graph;
 
 import java.util.*;
 
@@ -83,15 +83,12 @@ public class Graph {
 
     // BFS traversal of a graph to
     // check if the cloned graph is correct
-    public void bfs(GraphNode source) {
-        Queue<GraphNode> q = new LinkedList<GraphNode>();
+    public void bfs(GraphNode source, Queue<GraphNode> q, HashMap<GraphNode, Boolean> visit) {
         q.add(source);
-        HashMap<GraphNode, Boolean> visit = new HashMap<GraphNode, Boolean>();
         visit.put(source, true);
         while (!q.isEmpty()) {
             GraphNode u = q.poll();
             System.out.println("Value of Node " + u.val);
-            System.out.println("Address of Node " + u);
             if (u.neighbours != null) {
                 List<GraphNode> v = u.neighbours;
                 for (GraphNode g : v) {
@@ -103,5 +100,25 @@ public class Graph {
             }
         }
         System.out.println();
+    }
+
+    public void dfs(GraphNode source, Stack<GraphNode> s, HashMap<GraphNode, Boolean> visit) {
+        s.add(source);
+        visit.put(source, true);
+
+        while(!s.isEmpty()) {
+            GraphNode u = s.pop();
+            System.out.println("Value of Node " + u.val);
+
+            List<GraphNode> v = u.neighbours;
+
+            for (GraphNode g : v) {
+                if (visit.get(g) == null) {
+                    s.push(g);
+                    visit.put(g, true);
+                }
+            }
+
+        }
     }
 }

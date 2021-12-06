@@ -1,4 +1,4 @@
-package other_algo.graph;
+package amazon.graph;
 
 import java.util.ArrayList;
 import java.util.List;

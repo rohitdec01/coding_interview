@@ -1,4 +1,4 @@
-package other_algo.tree1;
+package amazon.tree1;
 
 import java.util.LinkedList;
 import java.util.Queue;

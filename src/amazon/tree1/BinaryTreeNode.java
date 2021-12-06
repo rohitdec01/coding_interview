@@ -1,4 +1,4 @@
-package other_algo.tree1;
+package amazon.tree1;
 
 public class BinaryTreeNode {
     public int data;

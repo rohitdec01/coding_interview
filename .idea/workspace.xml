@@ -66,7 +66,7 @@
       <recent name="other_algo.levelOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CloneUnDirectedGraph">
+  <component name="RunManager" selected="Application.LogOrderPrioritization">
     <configuration name="CloneUnDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other_algo.graph.CloneUnDirectedGraph" />
       <module name="coding_interview" />
@@ -82,6 +82,19 @@
     </configuration>
     <configuration name="FindAllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.FindAllSubset" />
+      <module name="coding_interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogOrderPrioritization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amazon.LogOrderPrioritization" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
@@ -119,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoInt_IsGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="amazon.SumOfTwoInt_IsGivenNumber" />
-      <module name="coding_interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="amazon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogOrderPrioritization" />
+        <item itemvalue="Application.MissingNumberInTheArray" />
         <item itemvalue="Application.CloneUnDirectedGraph" />
         <item itemvalue="Application.FindAllSubset" />
-        <item itemvalue="Application.MissingNumberInTheArray" />
         <item itemvalue="Application.StringSegmentation" />
-        <item itemvalue="Application.SumOfTwoInt_IsGivenNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -233,42 +233,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="406" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1638728898349" />
-    <state width="1493" height="108" key="GridCell.Tab.0.bottom" timestamp="1638753773284">
+    <state width="1493" height="119" key="GridCell.Tab.0.bottom" timestamp="1639069095828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638753773284" />
-    <state width="1493" height="108" key="GridCell.Tab.0.center" timestamp="1638753773284">
+    <state width="1493" height="119" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639069095828" />
+    <state width="1493" height="119" key="GridCell.Tab.0.center" timestamp="1639069095827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1638753773284" />
-    <state width="1493" height="108" key="GridCell.Tab.0.left" timestamp="1638753773282">
+    <state width="1493" height="119" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1639069095827" />
+    <state width="1493" height="119" key="GridCell.Tab.0.left" timestamp="1639069095825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1638753773282" />
-    <state width="1493" height="108" key="GridCell.Tab.0.right" timestamp="1638753773284">
+    <state width="1493" height="119" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1639069095825" />
+    <state width="1493" height="119" key="GridCell.Tab.0.right" timestamp="1639069095828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="108" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1638753773284" />
-    <state width="1493" height="245" key="GridCell.Tab.1.bottom" timestamp="1638731572942">
+    <state width="1493" height="119" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1639069095828" />
+    <state width="1493" height="119" key="GridCell.Tab.1.bottom" timestamp="1639069095828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
-    <state width="1493" height="245" key="GridCell.Tab.1.center" timestamp="1638731572942">
+    <state width="1493" height="119" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639069095828" />
+    <state width="1493" height="119" key="GridCell.Tab.1.center" timestamp="1639069095828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
-    <state width="1493" height="245" key="GridCell.Tab.1.left" timestamp="1638731572942">
+    <state width="1493" height="119" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1639069095828" />
+    <state width="1493" height="119" key="GridCell.Tab.1.left" timestamp="1639069095828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
-    <state width="1493" height="245" key="GridCell.Tab.1.right" timestamp="1638731572942">
+    <state width="1493" height="119" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1639069095828" />
+    <state width="1493" height="119" key="GridCell.Tab.1.right" timestamp="1639069095828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1638731572942" />
-    <state x="478" y="145" width="579" height="592" key="find.popup" timestamp="1638739469949">
+    <state width="1493" height="119" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1639069095828" />
+    <state x="478" y="145" width="579" height="592" key="find.popup" timestamp="1638977186208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638739469949" />
+    <state x="478" y="145" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638977186208" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1638736004723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -338,18 +338,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/amazon/MissingNumberInTheArray.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="53" />
+          <line>50</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/amazon/MissingNumberInTheArray.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="55" />
+          <line>53</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/amazon/MissingNumberInTheArray.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="56" />
+          <line>62</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
