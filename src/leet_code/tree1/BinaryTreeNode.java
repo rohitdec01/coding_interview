@@ -1,4 +1,4 @@
-package amazon.tree1;
+package leet_code.tree1;
 
 public class BinaryTreeNode {
     public int data;

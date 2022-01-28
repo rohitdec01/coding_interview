@@ -1,4 +1,4 @@
-package amazon;
+package leet_code;
 
 public class MissingNumberInTheArray {
 

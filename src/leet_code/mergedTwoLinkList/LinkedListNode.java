@@ -1,4 +1,4 @@
-package amazon.mergedTwoLinkList;
+package leet_code.mergedTwoLinkList;
 
 public class LinkedListNode {
     public int data;

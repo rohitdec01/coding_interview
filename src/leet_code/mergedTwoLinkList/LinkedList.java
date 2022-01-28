@@ -1,4 +1,4 @@
-package amazon.mergedTwoLinkList;
+package leet_code.mergedTwoLinkList;
 
 public class LinkedList {
     public static LinkedListNode create_linked_list(int[] arr) {

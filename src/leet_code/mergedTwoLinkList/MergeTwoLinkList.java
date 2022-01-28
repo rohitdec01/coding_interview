@@ -1,4 +1,4 @@
-package amazon.mergedTwoLinkList;
+package leet_code.mergedTwoLinkList;
 
 /*
     Merge two sorted linked list into one sorted linked lists.

@@ -1,4 +1,4 @@
-package amazon;
+package leet_code;
 
 import java.io.BufferedReader;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package amazon.tree1;
+package leet_code.tree1;
 
 import java.util.Arrays;
 

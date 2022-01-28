@@ -1,4 +1,4 @@
-package amazon;
+package leet_code;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

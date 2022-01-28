@@ -1,4 +1,4 @@
-package amazon.graph;
+package leet_code.graph;
 
 import java.util.ArrayList;
 import java.util.List;
