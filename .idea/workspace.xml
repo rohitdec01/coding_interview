@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="" />
+    <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,13 +67,26 @@
       <recent name="other_algo.levelOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LogestCommonSubSquence">
+  <component name="RunManager" selected="Application.Knapsack">
     <configuration name="BoggleBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.BoggleBoard" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_code.dynamicPrograming.Knapsack" />
+      <module name="coding_interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_code.dynamicPrograming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumberInTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="amazon.MissingNumberInTheArray" />
-      <module name="coding_interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="amazon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TimeScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.TimeScheduler" />
       <module name="coding_interview" />
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.LogestCommonSubSquence" />
         <item itemvalue="Application.TimeScheduler" />
         <item itemvalue="Application.BoggleBoard" />
         <item itemvalue="Application.LogOrderPrioritization" />
-        <item itemvalue="Application.MissingNumberInTheArray" />
       </list>
     </recent_temporary>
   </component>
@@ -224,46 +226,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1638737531724" />
-    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1638729176496">
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1643341864094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1638729176496" />
-    <state width="409" height="444" key="DebuggerActiveHint" timestamp="1641418917177">
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1643341864094" />
+    <state width="514" height="444" key="DebuggerActiveHint" timestamp="1643341778442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="409" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1641418917177" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1642562244438">
+    <state width="514" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1643341778442" />
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom" timestamp="1643343547017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1642562244438" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1642562244438">
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643343547017" />
+    <state width="1493" height="126" key="GridCell.Tab.0.center" timestamp="1643343547017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1642562244438" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1642562244438">
+    <state width="1493" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643343547017" />
+    <state width="1493" height="126" key="GridCell.Tab.0.left" timestamp="1643343547017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1642562244438" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1642562244438">
+    <state width="1493" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643343547017" />
+    <state width="1493" height="126" key="GridCell.Tab.0.right" timestamp="1643343547017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1642562244438" />
-    <state width="1493" height="119" key="GridCell.Tab.1.bottom" timestamp="1641418643809">
+    <state width="1493" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643343547017" />
+    <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1643341914649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="119" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1641418643809" />
-    <state width="1493" height="119" key="GridCell.Tab.1.center" timestamp="1641418643809">
+    <state width="1493" height="304" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643341914649" />
+    <state width="1493" height="304" key="GridCell.Tab.1.center" timestamp="1643341914649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="119" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1641418643809" />
-    <state width="1493" height="119" key="GridCell.Tab.1.left" timestamp="1641418643809">
+    <state width="1493" height="304" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1643341914649" />
+    <state width="1493" height="304" key="GridCell.Tab.1.left" timestamp="1643341914649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="119" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1641418643809" />
-    <state width="1493" height="119" key="GridCell.Tab.1.right" timestamp="1641418643809">
+    <state width="1493" height="304" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1643341914649" />
+    <state width="1493" height="304" key="GridCell.Tab.1.right" timestamp="1643341914649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="119" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1641418643809" />
+    <state width="1493" height="304" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1643341914649" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1642561746817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -276,10 +278,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1638736004723" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1641090717256">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1643340806098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1641090717256" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1643340806098" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,6 +363,24 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_code/dynamicPrograming/LogestCommonSubSquence.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_code/dynamicPrograming/LogestCommonSubSquence.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leet_code/dynamicPrograming/Knapsack.java</url>
+          <line>68</line>
+          <properties class="leet_code.dynamicPrograming.Knapsack" method="napSackRPureDP">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
