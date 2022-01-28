@@ -2,7 +2,7 @@ package leet_code.dynamicPrograming;
 
 import java.util.Arrays;
 
-public class LogestCommonSubSquence {
+public class _2_LogestCommonSubSquence {
 
     /*NOTE: Using Recursion and dynamic programing*/
 

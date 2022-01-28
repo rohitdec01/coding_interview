@@ -2,7 +2,7 @@ package leet_code.dynamicPrograming;
 
 import java.util.Arrays;
 
-public class Knapsack {
+public class _1_Knapsack {
 
     /*Given N items, each item having a given weight Ci and a profit value Pi, the task is to maximize the profit
     by selecting a maximum of K items adding up to a maximum weight W.
