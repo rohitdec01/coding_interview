@@ -18,9 +18,9 @@ public class Main {
         // Tree.levelOrderTraversal(rootBSt);
 
         BinaryTreeNode rootTree = BinaryTree.create_Tree(Arrays.asList(100, 50, 200, 25, 75, 350), !isBST);
-        System.out.println(Tree.isBST(rootTree, Integer.MIN_VALUE, Integer.MAX_VALUE)); // BST
+        System.out.println(BinaryTree.isBST(rootTree, Integer.MIN_VALUE, Integer.MAX_VALUE)); // BST
 
         BinaryTreeNode rootTree2 = BinaryTree.create_Tree(Arrays.asList(100, 50, 200, 25, 75, 35), isBST);
-        System.out.println(Tree.isBST(rootTree2, Integer.MIN_VALUE, Integer.MAX_VALUE)); // NOT BST
+        System.out.println(BinaryTree.isBST(rootTree2, Integer.MIN_VALUE, Integer.MAX_VALUE)); // NOT BST
     }
 }

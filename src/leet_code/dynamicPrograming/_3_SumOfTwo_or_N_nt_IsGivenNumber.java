@@ -1,10 +1,9 @@
 package leet_code.dynamicPrograming;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 
-public class _3_SumOfTwo_or_three_Int_IsGivenNumber {
+public class _3_SumOfTwo_or_N_nt_IsGivenNumber {
 
     /* Determine if the sum of two integers is equal to the given value */
 
@@ -22,10 +21,10 @@ public class _3_SumOfTwo_or_three_Int_IsGivenNumber {
 // **********************************************************************************************
 
         System.out.println("******* recursive ********  true/false");
-        System.out.println(sumOfTwoNumbersIsEqualToGivenValueRecursion(nums, nums.length, target));
+        System.out.println(sumOf_N_NumbersIsEqualToGivenValueRecursion(nums, nums.length, target));
         System.out.println("******* Dynamic programing ********  true/false");
         boolean[][] memory = new boolean[nums.length + 1][target + 1];
-        System.out.println(sumOfTwoNumbersIsEqualToGivenValueDP(nums, nums.length, target, memory));
+        System.out.println(sumOf_N_NumbersIsEqualToGivenValueDP(nums, nums.length, target, memory));
     }
 
     /* Time complexity O(n Square). Brute force Algo*/
@@ -78,7 +77,7 @@ public class _3_SumOfTwo_or_three_Int_IsGivenNumber {
     }
 
 
-    public static boolean sumOfTwoNumbersIsEqualToGivenValueRecursion(int[] value, int len, int target) {
+    public static boolean sumOf_N_NumbersIsEqualToGivenValueRecursion(int[] value, int len, int target) {
         if (len  == 0) {
             return false;
         }
@@ -88,13 +87,13 @@ public class _3_SumOfTwo_or_three_Int_IsGivenNumber {
         }
 
         if (value[len - 1] <= target) {
-            return sumOfTwoNumbersIsEqualToGivenValueRecursion(value, len - 1, target - value[len -1]) ||
-                    sumOfTwoNumbersIsEqualToGivenValueRecursion(value,len - 1, target);
+            return sumOf_N_NumbersIsEqualToGivenValueRecursion(value, len - 1, target - value[len -1]) ||
+                    sumOf_N_NumbersIsEqualToGivenValueRecursion(value,len - 1, target);
         }
-        return sumOfTwoNumbersIsEqualToGivenValueRecursion(value,len - 1, target);
+        return sumOf_N_NumbersIsEqualToGivenValueRecursion(value,len - 1, target);
     }
 
-    public static boolean sumOfTwoNumbersIsEqualToGivenValueDP(int[] value, int len, int target, boolean[][] memory) {
+    public static boolean sumOf_N_NumbersIsEqualToGivenValueDP(int[] value, int len, int target, boolean[][] memory) {
         // int[] value = {2, 4, 8, 15, 6}; // 21
         for(int i = 0; i <= len; i++) {
             for (int j = 0; j <= target; j++) {

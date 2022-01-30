@@ -1,4 +1,4 @@
-package leet_code.mergedTwoLinkList;
+package leet_code.linkedList;
 
 public class LinkedListNode {
     public int data;

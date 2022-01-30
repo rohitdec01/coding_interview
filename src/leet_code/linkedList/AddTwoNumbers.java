@@ -1,6 +1,6 @@
-package leet_code;
+package leet_code.linkedList;
 
-public class _002_AddTwoNumbers {
+public class AddTwoNumbers {
 
     /*You are given two non-empty linked lists representing two non-negative integers. The digits are stored in
     reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
@@ -14,51 +14,42 @@ public class _002_AddTwoNumbers {
     Explanation: 342 + 465 = 807.*/
 
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
+        LinkedListNode l1 = new LinkedListNode(2);
+        l1.next = new LinkedListNode(4);
+        l1.next.next = new LinkedListNode(3);
 
-        ListNode l2 = new ListNode(5);
-        l2.next = new ListNode(6);
-        l2.next.next = new ListNode(4);
+        LinkedListNode l2 = new LinkedListNode(5);
+        l2.next = new LinkedListNode(6);
+        l2.next.next = new LinkedListNode(4);
 
         System.out.println(AddNumbers(l1, l2));
     }
 
-    private static ListNode AddNumbers(ListNode l1, ListNode l2) {
-        ListNode a = l1;
-        ListNode b = l2;
+    private static LinkedListNode AddNumbers(LinkedListNode l1, LinkedListNode l2) {
+        LinkedListNode a = l1;
+        LinkedListNode b = l2;
 
-        ListNode output = null;
-        ListNode currentOutput = null;
+        LinkedListNode output = null;
+        LinkedListNode currentOutput = null;
 
         int rem = 0;
         while (a != null || b != null) {
-            int val1 = a.val;
-            int val2 = b.val;
+            int val1 = a.data;
+            int val2 = b.data;
 
             int sum = rem + val1 + val2;
             rem = sum / 10;
 
             if (output == null) {
-                output = new ListNode(0);
+                output = new LinkedListNode(0);
                 currentOutput = output;
             }
-            currentOutput.next = new ListNode(sum % 10);
+            currentOutput.next = new LinkedListNode(sum % 10);
             currentOutput = currentOutput.next;
             a = a.next;
             b = b.next;
         }
 
         return output.next;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
     }
 }

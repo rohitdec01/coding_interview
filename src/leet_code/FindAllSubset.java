@@ -17,17 +17,20 @@ public class FindAllSubset {
 
     public static void main(String[] args) {
         List<Integer> lst = Arrays.asList(1, 1, 2, 3);
+        List<Integer> subset1 = new ArrayList<>();
+        powerSet(lst, 0, "", subset1);
 
+        // ***************************************************
         List<List<Integer>> subset = new ArrayList<>();
         findSubsets(subset, lst, new ArrayList<>(), 0);
 
         // Printing Subset
-        for(int i = 0; i < subset.size(); i++){
+       /* for(int i = 0; i < subset.size(); i++){
             for(int j = 0; j < subset.get(i).size(); j++){
                 System.out.print(subset.get(i).get(j) + " ");
             }
             System.out.println();
-        }
+        }*/
     }
 
     // O(2^n*n) for Time and space complexity.

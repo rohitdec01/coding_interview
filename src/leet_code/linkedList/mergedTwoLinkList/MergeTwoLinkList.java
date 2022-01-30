@@ -1,4 +1,6 @@
-package leet_code.mergedTwoLinkList;
+package leet_code.linkedList.mergedTwoLinkList;
+
+import leet_code.linkedList.LinkedListNode;
 
 /*
     Merge two sorted linked list into one sorted linked lists.

@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leet_code/dynamicPrograming/_3_SumOfTwoInt_IsGivenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_code/dynamicPrograming/_3_SumOfTwoInt_IsGivenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_code/TimeScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_code/TimeScheduler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +68,22 @@
       <recent name="other_algo.levelOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._3_SumOfTwoInt_IsGivenNumber">
-    <configuration name="FindAllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.FindAllSubset" />
+  <component name="RunManager" selected="Application.TimeScheduler">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_code.linkedList.AddTwoNumbers" />
+      <module name="coding_interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet_code.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayPairDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_code.ArrayPairDifference" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.dynamicPrograming._1_Knapsack" />
+    <configuration name="FindAllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_code.FindAllSubset" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.dynamicPrograming.*" />
+          <option name="PATTERN" value="leet_code.linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_LogestCommonSubSquence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.dynamicPrograming._2_LogestCommonSubSquence" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_code.tree1.Main" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.dynamicPrograming.*" />
+          <option name="PATTERN" value="leet_code.tree1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_SumOfTwoInt_IsGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.dynamicPrograming._3_SumOfTwoInt_IsGivenNumber" />
+    <configuration name="TimeScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet_code.TimeScheduler" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.dynamicPrograming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_4_TwoEqualSumInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.dynamicPrograming._4_TwoEqualSumInAnArray" />
-      <module name="coding_interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet_code.dynamicPrograming.*" />
+          <option name="PATTERN" value="leet_code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._3_SumOfTwoInt_IsGivenNumber" />
+        <item itemvalue="Application.TimeScheduler" />
         <item itemvalue="Application.FindAllSubset" />
-        <item itemvalue="Application._4_TwoEqualSumInAnArray" />
-        <item itemvalue="Application._1_Knapsack" />
-        <item itemvalue="Application._2_LogestCommonSubSquence" />
+        <item itemvalue="Application.ArrayPairDifference" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._002_AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +227,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1638737531724" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643850106790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1643850106790" />
     <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1643398686537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -235,54 +239,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="514" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1643341778442" />
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1643515154043">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1644368656612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643515154043" />
-    <state width="1493" height="229" key="GridCell.Tab.0.center" timestamp="1643515154043">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1644368656612" />
+    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1644368656612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643515154043" />
-    <state width="1493" height="229" key="GridCell.Tab.0.left" timestamp="1643515154043">
+    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1644368656612" />
+    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1644368656612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643515154043" />
-    <state width="1493" height="229" key="GridCell.Tab.0.right" timestamp="1643515154043">
+    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1644368656612" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1644368656612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643515154043" />
-    <state width="1493" height="167" key="GridCell.Tab.1.bottom" timestamp="1643399051160">
+    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1644368656612" />
+    <state width="1493" height="155" key="GridCell.Tab.1.bottom" timestamp="1644368549859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643399051160" />
-    <state width="1493" height="167" key="GridCell.Tab.1.center" timestamp="1643399051160">
+    <state width="1493" height="155" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1644368549859" />
+    <state width="1493" height="155" key="GridCell.Tab.1.center" timestamp="1644368549859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1643399051160" />
-    <state width="1493" height="167" key="GridCell.Tab.1.left" timestamp="1643399051160">
+    <state width="1493" height="155" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1644368549859" />
+    <state width="1493" height="155" key="GridCell.Tab.1.left" timestamp="1644368549859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1643399051160" />
-    <state width="1493" height="167" key="GridCell.Tab.1.right" timestamp="1643399051160">
+    <state width="1493" height="155" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1644368549859" />
+    <state width="1493" height="155" key="GridCell.Tab.1.right" timestamp="1644368549859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1643399051160" />
+    <state width="1493" height="155" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1644368549859" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1642561746817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1642561746817" />
-    <state x="478" y="145" width="579" height="624" key="find.popup" timestamp="1643389968598">
+    <state x="478" y="145" width="579" height="624" key="find.popup" timestamp="1643854390529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="624" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1643389968598" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1638736004723">
+    <state x="478" y="145" width="579" height="624" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1643854390529" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1644366357590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1638736004723" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1643472773802">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1644366357590" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1644367538075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1643472773802" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1644367538075" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,12 +297,12 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_code/_002_AddTwoNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/leet_code/linked_list/linked_list</url>
           <line>52</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_code/_002_AddTwoNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/leet_code/linked_list/linked_list</url>
           <line>36</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -308,7 +312,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_code/mergedTwoLinkList/MergeTwoLinkList.java</url>
+          <url>file://$PROJECT_DIR$/src/leet_code/linked_list/mergedTwoLinkList/MergeTwoLinkList.java</url>
           <line>46</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -386,9 +390,19 @@
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_code/dynamicPrograming/_3_SumOfTwoInt_IsGivenNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leet_code/dynamicPrograming/_3_SumOfTwo_or_N_nt_IsGivenNumber.java</url>
           <line>81</line>
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_code/TimeScheduler.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leet_code/TimeScheduler.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leet_code/dynamicPrograming/_1_Knapsack.java</url>
@@ -397,6 +411,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leet_code/BoggleBoard.java</url>
+          <line>91</line>
+          <properties class="leet_code.BoggleBoard" method="isWord">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

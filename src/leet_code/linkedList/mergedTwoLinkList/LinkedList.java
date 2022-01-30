@@ -1,4 +1,6 @@
-package leet_code.mergedTwoLinkList;
+package leet_code.linkedList.mergedTwoLinkList;
+
+import leet_code.linkedList.LinkedListNode;
 
 public class LinkedList {
     public static LinkedListNode create_linked_list(int[] arr) {

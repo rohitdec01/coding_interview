@@ -1,8 +1,6 @@
 package leet_code;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class TimeScheduler {
 
@@ -11,7 +9,13 @@ public class TimeScheduler {
         int [][] slots2 = {{0,15},{60,70}} ;
         int duration = 8;
 
-        minAvailableDuration(slots1, slots2, duration);
+        // minAvailableDuration(slots1, slots2, duration);
+
+         // int nums[] = {100, 100, -300, 100};
+        int nums[] = {-100, 200, -400, 200};
+        // int nums[] = {-100, -100, -300, 100, 600}; // 13
+        // int nums[] = {-100, -100, -300, 100};
+        System.out.println(process(nums));
     }
 
     private  static List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
@@ -39,5 +43,33 @@ public class TimeScheduler {
 
         }
         return new ArrayList<>();
+    }
+
+    // Company: Nutanix
+    private static int process( int[] nums) {
+        // 100 100 -300 100 -> `6`
+
+        // TODO: nums -- base condition
+        int sum = 0; // 100
+        int len = nums.length;
+        int iteration = len;
+        int position = -1;
+        boolean bol = true;
+
+        for (int i=0; i< len; i++) {
+
+            sum += nums[i];
+
+            if(sum < 0 && bol) {
+                position = i;
+                bol = false;
+            }
+        }
+
+        if (sum >= 0 && position != -1) {
+            iteration = iteration + (len -1  - position) * 2;
+        }
+
+        return iteration;
     }
 }
