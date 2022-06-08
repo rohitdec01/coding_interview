@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bbdbbf0e-5ee8-4ba6-a9bf-36c1167338e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_code/_003_LongestSubstringWithoutRepeatingChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other_algo/string/_003_LongestSubstringWithoutRepeatingChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_code/backtTacking/_0_NQueenProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_code/backtTacking/_0_NQueenProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leet_code/dynamicPrograming/_0_fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leet_code/dynamicPrograming/_0_fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -52,13 +56,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../marsh-angular" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cdbsla" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="other_algo.string" />
       <recent name="amazon.boggleBoard" />
       <recent name="leet_code.problem_617" />
       <recent name="other_algo.common" />
@@ -67,13 +72,13 @@
       <recent name="other_algo.levelOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NQueenProblem">
+  <component name="RunManager" selected="Application._1_Two_Three_Four_Sum">
     <configuration name="ArrayPairDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet_code.ArrayPairDifference" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.FindAllSubset" />
+    <configuration name="_150_RPN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string._150_RPN" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.linked_list.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.tree1.Main" />
+    <configuration name="_1_Two_Three_Four_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string._1_Two_Three_Four_Sum" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.tree1.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.backtTacking.NQueenProblem" />
+    <configuration name="_253_MeetingRooms2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string._253_MeetingRooms2" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.backtTacking.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet_code.TimeScheduler" />
+    <configuration name="_394_decodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_algo.string._394_decodeString" />
       <module name="coding_interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet_code.*" />
+          <option name="PATTERN" value="other_algo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,15 +140,27 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NQueenProblem" />
-        <item itemvalue="Application.TimeScheduler" />
-        <item itemvalue="Application.FindAllSubset" />
+        <item itemvalue="Application._1_Two_Three_Four_Sum" />
         <item itemvalue="Application.ArrayPairDifference" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._394_decodeString" />
+        <item itemvalue="Application._253_MeetingRooms2" />
+        <item itemvalue="Application._150_RPN" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -203,6 +220,38 @@
       <workItem from="1610255578488" duration="595000" />
       <workItem from="1610257387486" duration="595000" />
       <workItem from="1610259236122" duration="5000" />
+      <workItem from="1649626857062" duration="1749000" />
+      <workItem from="1649628648714" duration="1778000" />
+      <workItem from="1649630763937" duration="664000" />
+      <workItem from="1650385252545" duration="15000" />
+      <workItem from="1652302789119" duration="1719000" />
+      <workItem from="1653276751251" duration="1342000" />
+      <workItem from="1653278591782" duration="1735000" />
+      <workItem from="1653280401296" duration="697000" />
+      <workItem from="1653315231495" duration="998000" />
+      <workItem from="1653345191435" duration="1072000" />
+      <workItem from="1654015585487" duration="720000" />
+      <workItem from="1654019300493" duration="1293000" />
+      <workItem from="1654023804342" duration="1662000" />
+      <workItem from="1654044114309" duration="1531000" />
+      <workItem from="1654051058462" duration="4427000" />
+      <workItem from="1654132765528" duration="1780000" />
+      <workItem from="1654220336996" duration="1256000" />
+      <workItem from="1654222696602" duration="1371000" />
+      <workItem from="1654224623192" duration="596000" />
+      <workItem from="1654378800214" duration="1668000" />
+      <workItem from="1654385452626" duration="99000" />
+      <workItem from="1654394097166" duration="1788000" />
+      <workItem from="1654395917724" duration="2253000" />
+      <workItem from="1654483964526" duration="1178000" />
+      <workItem from="1654485912797" duration="1780000" />
+      <workItem from="1654487723398" duration="1851000" />
+      <workItem from="1654489608474" duration="1228000" />
+      <workItem from="1654491969951" duration="1496000" />
+      <workItem from="1654562372662" duration="1723000" />
+      <workItem from="1654569302006" duration="595000" />
+      <workItem from="1654643325273" duration="749000" />
+      <workItem from="1654653605960" duration="486000" />
     </task>
     <servers />
   </component>
@@ -214,78 +263,83 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1638737531724">
+    <state x="361" y="72" key="#Plugins" timestamp="1653315702504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1638737531724" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643850106790">
+    <state x="361" y="72" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1653315702504" />
+    <state x="524" y="116" key="#xdebugger.evaluate" timestamp="1654394233027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1643850106790" />
-    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1643398686537">
+    <state x="524" y="116" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1654394233027" />
+    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1654133513745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1643398686537" />
-    <state width="514" height="444" key="DebuggerActiveHint" timestamp="1645309915985">
+    <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1654133513745" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1654491997634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="514" height="444" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1645309915985" />
-    <state width="1493" height="129" key="GridCell.Tab.0.bottom" timestamp="1645381932298">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654491997634" />
+    <state width="1537" height="232" key="GridCell.Tab.0.bottom" timestamp="1654489055154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1645381932298" />
-    <state width="1493" height="129" key="GridCell.Tab.0.center" timestamp="1645381932298">
+    <state width="1537" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654489055154" />
+    <state width="1537" height="232" key="GridCell.Tab.0.center" timestamp="1654489055154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1645381932298" />
-    <state width="1493" height="129" key="GridCell.Tab.0.left" timestamp="1645381932298">
+    <state width="1537" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1654489055154" />
+    <state width="1537" height="232" key="GridCell.Tab.0.left" timestamp="1654489055154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1645381932298" />
-    <state width="1493" height="129" key="GridCell.Tab.0.right" timestamp="1645381932298">
+    <state width="1537" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1654489055154" />
+    <state width="1537" height="232" key="GridCell.Tab.0.right" timestamp="1654489055154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1645381932298" />
-    <state width="1493" height="155" key="GridCell.Tab.1.bottom" timestamp="1645323011610">
+    <state width="1537" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1654489055154" />
+    <state width="1537" height="137" key="GridCell.Tab.1.bottom" timestamp="1654396285073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1645323011610" />
-    <state width="1493" height="155" key="GridCell.Tab.1.center" timestamp="1645323011610">
+    <state width="1537" height="137" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654396285073" />
+    <state width="1537" height="137" key="GridCell.Tab.1.center" timestamp="1654396285073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1645323011610" />
-    <state width="1493" height="155" key="GridCell.Tab.1.left" timestamp="1645323011610">
+    <state width="1537" height="137" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1654396285073" />
+    <state width="1537" height="137" key="GridCell.Tab.1.left" timestamp="1654396285073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1645323011610" />
-    <state width="1493" height="155" key="GridCell.Tab.1.right" timestamp="1645323011610">
+    <state width="1537" height="137" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1654396285073" />
+    <state width="1537" height="137" key="GridCell.Tab.1.right" timestamp="1654396285073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="155" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1645323011610" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1642561746817">
+    <state width="1537" height="137" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1654396285073" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1654653613261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1642561746817" />
-    <state x="478" y="145" width="579" height="624" key="find.popup" timestamp="1643854390529">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1654653613261" />
+    <state x="483" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1654051907575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="624" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1643854390529" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1644366357590">
+    <state x="483" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1654051907575" />
+    <state x="463" y="144" width="611" height="536" key="find.popup" timestamp="1654653745281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1644366357590" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1645380817313">
+    <state x="463" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1654653745281" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1654395690068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1645380817313" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1654395690068" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1653315657569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1653315657569" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,7 +360,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_code/_003_LongestSubstringWithoutRepeatingChar.java</url>
+          <url>file://$PROJECT_DIR$/src/other_algo/string/_003_LongestSubstringWithoutRepeatingChar.java</url>
           <line>35</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -341,7 +395,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_code/_003_LongestSubstringWithoutRepeatingChar.java</url>
+          <url>file://$PROJECT_DIR$/src/other_algo/string/_003_LongestSubstringWithoutRepeatingChar.java</url>
           <line>41</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
@@ -404,9 +458,19 @@
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leet_code/backtTacking/NQueenProblem.java</url>
+          <url>file://$PROJECT_DIR$/src/leet_code/backtTacking/_0_NQueenProblem.java</url>
           <line>83</line>
           <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javaStreams/filterExample.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/other_algo/string/_253_MeetingRooms2.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leet_code/dynamicPrograming/_1_Knapsack.java</url>

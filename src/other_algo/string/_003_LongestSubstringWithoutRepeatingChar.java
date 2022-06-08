@@ -1,4 +1,4 @@
-package leet_code;
+package other_algo.string;
 
 import java.util.HashMap;
 import java.util.Map;

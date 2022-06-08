@@ -6,7 +6,7 @@ public class _0_fibonacci {
     {
         int n = 9;
         System.out.println(fibRecursion(n));
-        System.out.println(fibDP(n));
+        // System.out.println(fibDP(n));
     }
 
     static int fibRecursion(int n)

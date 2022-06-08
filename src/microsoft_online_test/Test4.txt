@@ -1,0 +1,36 @@
+package microsoft_online_test
+
+fun solution(A: IntArray, m: Int): Int {
+    val result = Array(1) { 1 }
+    largestSubSetDivisible(A, m = m, result = result)
+    return result[0]
+}
+
+fun largestSubSetDivisible(
+        array: IntArray,
+        arr: IntArray = IntArray(array.size) { 0 },
+        i: Int = 0,
+        m: Int,
+        result: Array<Int> = Array(1) { 1 }
+) {
+    fun checkDivisionPair(array: List<Int>, m: Int): Boolean {
+        for (j in 0 until array.size - 1) {
+            if ((array[j] - array[j + 1]) % m != 0)
+                return false
+        }
+        return true
+    }
+    if (i == array.size) {
+        val count = arr.count { it == 1 }
+        if (result[0] < count) {
+            val ar = array.filterIndexed { index, _ -> arr[index] == 1 }
+            if (checkDivisionPair(ar, m))
+                result[0] = count
+        }
+        return
+    }
+    arr[i] = 0
+    largestSubSetDivisible(array, arr, i + 1, m, result)
+    arr[i] = 1
+    largestSubSetDivisible(array, arr, i + 1, m, result)
+}

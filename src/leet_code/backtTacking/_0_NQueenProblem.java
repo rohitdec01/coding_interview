@@ -1,6 +1,6 @@
 package leet_code.backtTacking;
 
-public class NQueenProblem {
+public class _0_NQueenProblem {
 
     public static void main(String args[]) {
         int board[][] = {
