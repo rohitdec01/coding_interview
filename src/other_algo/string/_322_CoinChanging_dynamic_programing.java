@@ -13,7 +13,7 @@ import java.util.Arrays;
     1,1,5
     2,5
  */
-public class _322_CoinChanging {
+public class _322_CoinChanging_dynamic_programing {
     /*
     You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
 

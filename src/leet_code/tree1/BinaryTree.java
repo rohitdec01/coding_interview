@@ -1,5 +1,6 @@
 package leet_code.tree1;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -155,6 +156,68 @@ public class BinaryTree {
 
         return isBST(binaryTreeNode.left, min_value, binaryTreeNode.data) &&
                 isBST(binaryTreeNode.right, binaryTreeNode.data, max_value);
+    }
+
+    /*
+           Time Complexity:  O(min(N1, N2)), where N1, N2 are the lengths of root1 and root2.
+           Space Complexity: O(min(H1, H2)), where H1, H2 are the heights of the trees of root1 and root2.
+    */
+    public boolean IsBTFlipEquivalent(BinaryTreeNode root1, BinaryTreeNode root2) {
+        if (root1 == root2) // when null
+            return true;
+        if (root1 == null || root2 == null || root1.data != root2.data)
+            return false;
+
+        // check for all combination.
+        return (IsBTFlipEquivalent(root1.left, root2.left) && IsBTFlipEquivalent(root1.right, root2.right) ||
+                IsBTFlipEquivalent(root1.left, root2.right) && IsBTFlipEquivalent(root1.right, root2.left));
+    }
+
+    /*
+        Time Complexity: O(N1+N2), where N 1,N 2 are the lengths of root1 and root2.
+        Space Complexity: O(N1+N2). where H 1,H 2 are the heights of the trees of root1 and root2.)
+     */
+    public boolean IsBTFlipEquivalent2(BinaryTreeNode root1, BinaryTreeNode root2) {
+        List<Integer> vals1 = new ArrayList();
+        List<Integer> vals2 = new ArrayList();
+        dfs(root1, vals1);
+        dfs(root2, vals2);
+        return vals1.equals(vals2);
+    }
+
+    public void dfs(BinaryTreeNode node, List<Integer> vals) {
+        if (node != null) {
+            vals.add(node.data);
+            int L = node.left != null ? node.left.data : -1;
+            int R = node.right != null ? node.right.data : -1;
+
+            if (L < R) {
+                dfs(node.left, vals);
+                dfs(node.right, vals);
+            } else {
+                dfs(node.right, vals);
+                dfs(node.left, vals);
+            }
+
+            vals.add(null);
+        }
+    }
+
+    public BinaryTreeNode mirror_tree(BinaryTreeNode root) {
+        if (root == null) return root;
+        //  post-order traversal of the binary tree.
+        if (root.left != null)
+            mirror_tree(root.left);
+
+        if (root.right != null)
+            mirror_tree(root.right);
+
+        // swap the left and right nodes at current level.
+        BinaryTreeNode temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+
+        return root;
     }
 
 }
